@@ -19,7 +19,7 @@ $ npm install -g @mfe-frameworks/cli
 $ mfe COMMAND
 running command...
 $ mfe (-v|--version|version)
-@mfe-frameworks/cli/0.0.1 darwin-arm64 node-v16.13.0
+@mfe-frameworks/cli/0.0.2 darwin-arm64 node-v16.13.0
 $ mfe --help [COMMAND]
 USAGE
   $ mfe COMMAND
@@ -50,7 +50,7 @@ EXAMPLE
   $ mfe create
 ```
 
-_See code: [src/commands/create.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.1/src/commands/create.ts)_
+_See code: [src/commands/create.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.2/src/commands/create.ts)_
 
 ## `mfe help [COMMAND]`
 
@@ -84,7 +84,7 @@ EXAMPLE
   $ mfe install
 ```
 
-_See code: [src/commands/install.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.1/src/commands/install.ts)_
+_See code: [src/commands/install.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.2/src/commands/install.ts)_
 
 ## `mfe publish`
 
@@ -98,5 +98,5 @@ EXAMPLE
   $ mfe publish
 ```
 
-_See code: [src/commands/publish.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.1/src/commands/publish.ts)_
+_See code: [src/commands/publish.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.2/src/commands/publish.ts)_
 <!-- commandsstop -->
