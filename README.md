@@ -6,14 +6,21 @@
 [![License](https://img.shields.io/npm/l/@mfe-frameworks/cli.svg)](https://github.com/marcelovicentegc/microfrontend-framework/blob/master/package.json)
 
 <!-- toc -->
-* [@mfe-frameworks/cli](#mfe-frameworkscli)
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [@mfe-frameworks/cli](#mfe-frameworkscli)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`mfe create`](#mfe-create)
+  - [`mfe help [COMMAND]`](#mfe-help-command)
+  - [`mfe install [TENANT]`](#mfe-install-tenant)
+  - [`mfe publish`](#mfe-publish)
+- [Development](#development)
 <!-- tocstop -->
 
 # Usage
 
 <!-- usage -->
+
 ```sh-session
 $ npm install -g @mfe-frameworks/cli
 $ mfe COMMAND
@@ -25,15 +32,21 @@ USAGE
   $ mfe COMMAND
 ...
 ```
+
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
-* [`mfe create`](#mfe-create)
-* [`mfe help [COMMAND]`](#mfe-help-command)
-* [`mfe install [TENANT]`](#mfe-install-tenant)
-* [`mfe publish`](#mfe-publish)
+
+- [@mfe-frameworks/cli](#mfe-frameworkscli)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`mfe create`](#mfe-create)
+  - [`mfe help [COMMAND]`](#mfe-help-command)
+  - [`mfe install [TENANT]`](#mfe-install-tenant)
+  - [`mfe publish`](#mfe-publish)
+- [Development](#development)
 
 ## `mfe create`
 
@@ -99,4 +112,13 @@ EXAMPLE
 ```
 
 _See code: [src/commands/publish.ts](https://github.com/marcelovicentegc/microfrontend-framework/blob/v0.0.2/src/commands/publish.ts)_
+
 <!-- commandsstop -->
+
+# Development
+
+- Clone this repo
+- Clone the builder and the registry application
+- Get your API keys for each of the services above
+- Start the builder, and than start the registry
+- Start playing with it

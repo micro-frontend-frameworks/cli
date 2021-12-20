@@ -16,6 +16,7 @@ cd ${appName}
 git sparse-checkout set ${framework}-template
 mv ${poc}/${framework}-template/** .
 rm -rf nextjs-*
+rm -rf .git
 yarn`,
     (error, _, stderr) => {
       if (error) {
