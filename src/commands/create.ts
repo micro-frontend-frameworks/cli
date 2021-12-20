@@ -15,6 +15,7 @@ function clone(appName: string, framework: string, poc: string) {
 cd ${appName}
 git sparse-checkout set ${framework}-template
 mv ${poc}/${framework}-template/** .
+rm -rf nextjs-*
 yarn`,
     (error, _, stderr) => {
       if (error) {
@@ -67,7 +68,7 @@ export default class Create extends Command {
 
     switch (poc) {
       case "nextjs-build-time-integration":
-        framework = await inquirer.prompt([
+        framework = (await inquirer.prompt([
           {
             name: "framework",
             message: "What framework would you like to use?",
@@ -76,7 +77,8 @@ export default class Create extends Command {
               name: option,
             })),
           },
-        ]);
+        ])).framework
+
         break;
       default:
         break;
